@@ -253,6 +253,7 @@
         justify-content: space-between;
         margin-left: 10px;
         height: 1250px;
+
         &    .card {
             width: 420px;
             height: 300px;
@@ -264,7 +265,10 @@
             margin-top: 5px;
             margin-left: 10px;
         }
-        
+        a {
+            text-decoration: none;
+            color: black;
+            }
         
         
         .colonne > .card > p:nth-child(2) {
