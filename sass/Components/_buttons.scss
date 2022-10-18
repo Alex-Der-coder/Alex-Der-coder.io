@@ -1,0 +1,64 @@
+@media all and (min-width: 375px) {
+    
+    .btn-restaurant {
+        background: linear-gradient($color-secondary,$color-primary);
+        width: 180px;
+        border-radius: 50px;
+        color: white;
+    }
+    
+    .btn-choisir {
+        box-shadow: -2px 2px 9px -2px rgba(23, 21, 21, 0.67);
+        border-radius: 20px;
+        height: 100px;
+        width: 320px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+@media all and (min-width: 768px) {
+    
+    .btn-restaurant {
+        background: linear-gradient($color-secondary,$color-primary);
+        border-radius: 50px;
+        color: white;
+        margin-left: -32px;
+        width: 200px;
+    }
+    
+    .btn-choisir {
+        box-shadow: -2px 2px 9px -2px rgba(23, 21, 21, 0.67);
+        border-radius: 20px;
+        height: 150px;
+        width: 355px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+@media all and (min-width: 1280px) {
+    
+    .btn-restaurant {
+        background: linear-gradient($color-secondary,$color-primary);
+        border-radius: 50px;
+        color: white;
+        margin-left: -32px;
+        width: 200px;
+    }
+    
+    .btn-choisir {
+        box-shadow: -2px 2px 9px -2px rgba(23, 21, 21, 0.67);
+        border-radius: 20px;
+        height: 150px;
+        width: 355px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}

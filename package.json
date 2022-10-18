@@ -1,0 +1,15 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "Site web mobile de la startup dans le monde de la restauration.",
+  "main": "index.js",
+  "scripts":  { 
+    "sass_mobile": "sass --watch ./sass/smartphone.scss:./CSS/smartphone.css --style compressed",
+    "sass_tablette": "sass --watch ./sass/tablette.scss:./CSS/tablette.css --style compressed",
+    "sass_desktop": "sass --watch ./sass/desktop.scss:./CSS/desktop.css --style compressed"
+},
+
+  "author": "Alexandre De Roeck",
+  "license": "ISC"
+}
+

@@ -1,0 +1,120 @@
+
+    @keyframes spin {
+        0% {
+            display: contents;
+            transform: rotate(0deg);
+        }   
+        
+        100% {
+            opacity: 2;
+            transform: rotate(360deg);
+            display: none;
+        }
+    }
+    
+    .load_background_spinner {
+        transition-delay: 1500ms;    
+        animation: load 1400ms  linear;
+    }
+    @keyframes load {
+        100% {
+            background: white;
+            opacity: 0;
+        }    
+    }
+    
+ @-webkit-keyframes scale-in-hor-right {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+      opacity: 1;
+      
+    }
+  }
+  @keyframes scale-in-hor-right {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+              display: initial;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+              display: initial;
+    }
+  }
+  
+
+@keyframes fa-heart {
+    
+    0%      { background-color:$color-primary;bottom: 0;}
+  
+    30%      {background: -webkit-linear-gradient($color-primary,$color-secondary);-webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}
+
+    60%      {background: -webkit-linear-gradient($color-secondary,$color-primary);-webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}
+
+    70%      {background: -webkit-linear-gradient($color-secondary,$color-primary);-webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}
+
+    80%      { background-color:$color-secondary;}
+
+    90%      { background-color:$color-secondary;}
+
+    100%      { background-color:$color-secondary;}
+}
+
+
+ @-webkit-keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes slide-down {
+        0% { opacity: 0; -webkit-transform: translateY(-100%); }   
+      100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+
+  @keyframes slide-down {
+        0% { opacity: 0; -webkit-transform: translateY(-100%); }   
+      100% { opacity: 1; -webkit-transform: translateY(0); }
+  }
+  
+
+
+
+

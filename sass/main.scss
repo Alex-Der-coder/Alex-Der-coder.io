@@ -1,0 +1,286 @@
+@media all and (max-width: 375px)
+
+{
+    @import "./utils/mixins";
+    @import "./utils/variables";
+    @import "./utils/functions";
+    @import "./utils/extensions";
+    @import "./base/base";
+    @import "./base/typography";
+    @import "./components/buttons";
+    @import "./layouts/header";
+    @import "./layouts/nav";
+    @import "./layouts/container";
+    @import "./layouts/form";
+    @import "./pages/work";
+    @import "./pages/about";
+    @import "./pages/project";
+    
+    #ajust-content  {
+        margin-left: 20px;
+    }
+    
+    #ajust {
+        margin-left: 10px;
+        padding-top: 25px;
+    }
+    
+    section > img {
+        width: 105%;
+        margin-left: -10px;
+    }
+    .carte {
+        height: 1170px;
+        background-color: white;
+        margin-top: -75px;
+        position: relative;
+        width: 105%;
+        margin-left: -10px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        &   h2 {
+            padding-top: 20px;
+            padding-left: 26px;
+            font-family: Shrikhand;
+        }
+    }
+    
+    .heart  {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &    .fa-heart {
+            margin-top: 42px;
+        }
+    }
+    
+    .colonne_menu {
+        @extend %flex-columm-space_between;
+        height: 250px;
+        .card_menu {
+            width: 350px;
+            height: 75px;
+            box-shadow: -9px 12px 99px 5px #46444438;
+            border-radius: 20px;
+            margin-left: 15px;
+            &:hover {
+                animation: scale-in-hor-right 2s ease-in-out backwards;
+                transform-origin: 50% top;
+                background-color: $color-tertiary;
+                
+            }
+        }
+    }
+    
+    .fa-heart {
+        font-size: 22px;
+        margin-top: 10px;
+        margin-right: 21px;
+        transition-duration: 2s;
+        transition-property:transform;
+        display: block;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(0, 0, 0, 0.56);
+        &:hover {
+            animation: fa-heart 3s ease-in-out ;
+            font-weight: bolder;
+            background-color: white;
+        }
+    }
+    
+    .logo {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 315px;
+        &    img {
+            width: 55%;
+            padding-top: 10px;
+            padding-bottom: 10px;    
+        } 
+    }
+    .choice-meal {
+        border-bottom: 3px solid $color-tertiary;
+        width: 41px;
+        margin-left: 25px;
+    }
+    #size {
+        font-size: 15px;
+    }
+    #top {
+        padding-top: 30px;
+    }
+    #more {
+        height: 1300px;
+    }
+    
+    #hight {
+        height: 345px;
+    }
+    
+    .where {
+        background-color:$color-light_grey;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .food {
+        padding-bottom: 50px;
+        margin-top: 60px;
+        margin-left: -10px;
+        width: 105%;
+        height: 100%;
+        background-color: $color-light_grey;
+    }
+    
+    .space {
+        display: flex;
+        width: 250px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .fa-1 , .fa-2 , .fa-3 {
+        margin-left: -6%;
+    }
+    .icones > .fa-solid {
+        border-right-width: 10px;
+        border-right-style: solid;
+        border-color: #DCDCDCBD;
+    }
+    .btn-choisir > .fa-circle {
+        color: $color-primary;
+        margin-left: -4%;
+    }
+    
+    .restaurant {
+        margin-top: -6%;
+        &   h1 ,  p  {
+            text-align: center;
+        }
+        &   h1 {
+            width: 285px;
+            margin-top: 55px;
+        }
+    }
+    
+    .colonne {
+        @extend %flex-columm-space_between;
+        margin-left: 10px;
+        height: 1250px;
+        &    .card {
+            width: 320px;
+            height: 300px;
+            background-color: white;
+            border-radius: 20px;
+        }
+        &     .__bold {
+            font-weight:bold;
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+        
+        
+        
+        .colonne > .card > p:nth-child(2) {
+            margin-top: -5px;
+            margin-bottom: -14px;
+            margin-left: 10px;
+        }
+        div.card  > p:nth-child(3) {
+            margin-top: 0px;
+            margin-left: 10px;
+        }
+        img {
+            width: 320px;
+            height: 230px;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+        }
+    }
+    .align-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        margin-top: 45px;
+    }
+    .align {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 14.2px;
+        margin-top: -20px;
+        width: 312px;
+        padding-left: 10px;
+    }
+    
+    .align_index {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 14.2px;
+        width: 312px;
+        margin-top: 0px;
+        padding-left: 0px;
+    }
+    
+    .__bold_menu {
+        font-weight:bold;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .colonne > .card > p:nth-child(1) {
+        font-weight: bold;
+    }
+    
+    main {
+        margin-left: 20px;
+    }
+    header > span {
+        padding-left: 5px;
+    }
+    
+    #haut {
+        height: 255px;
+        text-align: center;
+        background-color:  #F2F2F2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container {
+        @extend %flex-columm-space_between;
+        align-items: center;
+        height: 350px;
+    } 
+    
+    footer {
+        padding-bottom: 13px;
+        margin-top: -20px;
+        width: 105%;
+        margin-left: -8px;
+        background-color:#000000cf;
+        & nav   {
+            margin-left: 27px;
+        }
+        & h3 {
+            font-family: Shrikhand;
+            padding-top: 20px;
+        }   
+        & h3 , a , .fa-utensils , .fa-handshake-angle   {
+            color: white;
+        }
+        & a {
+            font-family: "Roboto", sans-serif;
+            text-decoration: none;
+        }       
+    }  
+}
+
+

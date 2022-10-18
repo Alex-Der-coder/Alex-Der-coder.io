@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    src: url(fonts/Roboto-Regular.ttf) 
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    font-weight: 700;
+    src: url(fonts/Roboto-Light.ttf) 
+}
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 700;
+    src: url(fonts/Roboto-Bold.ttf) 
+}
+
+@font-face {
+    font-family: 'Shrikhand';
+    src: url(fonts/Shrikhand-Regular.otf) ,
+    url(fonts/Shrikhand-Regular.ttf)
+}
+
+div, p, a, img, span, ul, li, ol, form, input, textarea, select, button, table, tr, td, th, tbody, thead, tfoot, dl, dt, dd, object, embed, iframe, blockquote, pre, address, fieldset, legend, label, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.light {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 15px;
+    height: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
