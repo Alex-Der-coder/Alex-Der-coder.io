@@ -17,6 +17,25 @@
         flex-direction: row;
         align-items: center;
     }
+
+    .btn-new { 
+        left: 245px;
+        background: $color-tertiary;
+        position: absolute;
+        height: 16px;
+        margin-top: 12px;
+        right: 43.567px;
+        padding-left: 10px;
+        padding-bottom: 8px;
+        width: 73.433px;
+        color: green;
+        border-radius: 2px;
+        & p { 
+            margin-bottom: 24px;
+            position: absolute;
+            top: -14px;
+        }
+    }
 }
 
 @media all and (min-width: 768px) {
@@ -39,9 +58,46 @@
         flex-direction: row;
         align-items: center;
     }
+    .btn-new { 
+        left: 343px;
+        background: $color-tertiary;
+        position: absolute;
+        height: 16px;
+        margin-top: 12px;
+        right: 43.567px;
+        padding-left: 10px;
+        padding-bottom: 8px;
+        width: 73.433px;
+        color: green;
+        border-radius: 2px;
+        & p { 
+            margin-bottom: 24px;
+            position: absolute;
+            top: -14px;
+        }
+    }
 }
 
 @media all and (min-width: 1280px) {
+
+    .btn-new { 
+        left: 343px;
+        background: $color-tertiary;
+        position: absolute;
+        height: 16px;
+        margin-top: 12px;
+        right: 43.567px;
+        padding-left: 10px;
+        padding-bottom: 8px;
+        width: 73.433px;
+        color: green;
+        border-radius: 2px;
+        & p { 
+            margin-bottom: 24px;
+            position: absolute;
+            top: -14px;
+        }
+    }
     
     .btn-restaurant {
         background: linear-gradient($color-secondary,$color-primary);
@@ -60,5 +116,23 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+    }
+    .btn-new { 
+        left: 343px;
+        background: $color-tertiary;
+        position: absolute;
+        height: 16px;
+        margin-top: 12px;
+        right: 43.567px;
+        padding-left: 10px;
+        padding-bottom: 8px;
+        width: 73.433px;
+        color: green;
+        border-radius: 2px;
+        & p { 
+            margin-bottom: 24px;
+            position: absolute;
+            top: -14px;
+        }
     }
 }
