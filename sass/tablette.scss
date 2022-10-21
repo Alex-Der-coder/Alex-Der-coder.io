@@ -79,8 +79,8 @@
         border-radius: 20px;
         margin-left: 15px;
         animation-delay: -3s;
-        -webkit-animation: slide-down 2s ease-in-out both;
-        animation: slide-down 2s ease-in-out both;
+        -webkit-animation: slide-down 1s ease-in-out both;
+        animation: slide-down 1s ease-in-out both;
     }
     
     .card_menu_alternate_2 {
@@ -90,8 +90,8 @@
         border-radius: 20px;
         margin-left: 15px;
         animation-delay: -4s;
-        -webkit-animation: slide-down 4s ease-in-out both;
-        animation: slide-down 4s ease-in-out both;
+        -webkit-animation: slide-down 2s ease-in-out both;
+        animation: slide-down 2s ease-in-out both;
     }
     
     .colonne_menu:hover  > .card_menu , .colonne_menu:hover  > .card_menu_alternate_1 , .colonne_menu:hover  > .card_menu_alternate_2  {

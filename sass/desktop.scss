@@ -173,8 +173,8 @@
             border-radius: 20px;
             margin-left: 15px;
             animation-delay: -3s;
-            -webkit-animation: slide-down 2s ease-in-out both;
-            animation: slide-down 2s ease-in-out both;
+            -webkit-animation: slide-down 1s ease-in-out both;
+            animation: slide-down 1s ease-in-out both;
         }
         .card_menu_alternate_2 {
             width: 350px;
@@ -183,8 +183,8 @@
             border-radius: 20px;
             margin-left: 15px;
             animation-delay: -4s;
-            -webkit-animation: slide-down 4s ease-in-out both;
-            animation: slide-down 4s ease-in-out both;
+            -webkit-animation: slide-down 2s ease-in-out both;
+            animation: slide-down 2s ease-in-out both;
         }
     }
     
@@ -253,6 +253,7 @@
     }
     
     .where {
+        margin-left: -42px;
         background-color:$color-light_grey;
         padding-top: 30px;
         padding-bottom: 0px;
@@ -298,6 +299,7 @@
     }
     
     .restaurant {
+        margin-left: -120px;
         margin-top: -6%;
         &   h1 ,  p  {
             text-align: center;
@@ -395,7 +397,7 @@
     }
     
     #haut {
-        margin-left: -54px;
+        margin-left: -6px;
         height: 255px;
         text-align: center;
         background-color:  #F2F2F2;
