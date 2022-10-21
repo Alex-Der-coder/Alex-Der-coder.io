@@ -297,6 +297,12 @@
         color: $color-primary;
         margin-left: -4%;
     }
+
+    div.btn-choisir:nth-child(3) {
+        background-color: #9356dc59;
+        }
+
+       
     
     .restaurant {
         margin-left: -120px;
@@ -436,4 +442,8 @@
             text-decoration: none;
         }       
     }  
+    div.btn-choisir:nth-child(3) {
+        background-color: #9356dc59;
+        }
 }
+

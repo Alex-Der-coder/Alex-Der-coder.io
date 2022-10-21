@@ -179,8 +179,8 @@
             border-radius: 20px;
             margin-left: 15px;
             animation-delay: -3s;
-            -webkit-animation: slide-down 2s ease-in-out both;
-            animation: slide-down 2s ease-in-out both;
+            -webkit-animation: slide-down 1s ease-in-out both;
+            animation: slide-down 1s ease-in-out both;
         }
         .card_menu_alternate_2 {
             width: 350px;
@@ -189,8 +189,8 @@
             border-radius: 20px;
             margin-left: 15px;
             animation-delay: -4s;
-            -webkit-animation: slide-down 4s ease-in-out both;
-            animation: slide-down 4s ease-in-out both;
+            -webkit-animation: slide-down 2s ease-in-out both;
+            animation: slide-down 2s ease-in-out both;
         }
     }
     
@@ -412,6 +412,7 @@
     }
     
     .container {
+        width: 1270px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -420,6 +421,8 @@
         align-items: unset;
         width: 1270px;
     } 
+    
+    
     
     footer {
         padding-bottom: 13px;
@@ -441,5 +444,8 @@
             font-family: "Roboto", sans-serif;
             text-decoration: none;
         }       
+    }
+    div.btn-choisir:nth-child(3) {
+        background-color: #9356dc59;
     }  
 }
