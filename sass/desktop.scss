@@ -173,8 +173,8 @@
             border-radius: 20px;
             margin-left: 15px;
             animation-delay: -3s;
-        -webkit-animation: slide-down 2s ease-in-out both;
-        animation: slide-down 2s ease-in-out both;
+            -webkit-animation: slide-down 2s ease-in-out both;
+            animation: slide-down 2s ease-in-out both;
         }
         .card_menu_alternate_2 {
             width: 350px;
@@ -317,8 +317,8 @@
         margin-left: 10px;
         height: 1250px;
         &   a {
-        text-decoration: none;
-        color: black;
+            text-decoration: none;
+            color: black;
         }
         &    .card {
             width: 420px;
@@ -406,9 +406,9 @@
     
     .container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
-        height: 600px;
+        height: 150px;
         margin-left: 20px;
         align-items: unset;
     } 
