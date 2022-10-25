@@ -1,11 +1,11 @@
 .fa-store {
     color: $color-primary;
-   }
+}
 
 .btn-restaurant:hover {
-background: linear-gradient(lighten($color-secondary,5%),(lighten($color-primary,5%)));
-box-shadow: 0px 6px 16px 3px #242424;
-cursor: pointer;
+    background: linear-gradient(lighten($color-secondary,5%),(lighten($color-primary,5%)));
+    box-shadow: 0px 6px 16px 3px #242424;
+    cursor: pointer;
 }
 
 
@@ -28,8 +28,9 @@ cursor: pointer;
         flex-direction: row;
         align-items: center;
     }
-
+    
     .btn-new { 
+        left: 246px;
         right: 18px;
         background: $color-tertiary;
         position: absolute;
@@ -48,7 +49,7 @@ cursor: pointer;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (min-width: 768px) {
     
     .btn-restaurant {
         background: linear-gradient($color-secondary,$color-primary);
@@ -57,7 +58,10 @@ cursor: pointer;
         margin-left: -32px;
         width: 200px;
     }
-    
+    #Jeff {
+    margin-top: -50px;
+    }
+
     .btn-choisir {
         box-shadow: -2px 2px 9px -2px rgba(23, 21, 21, 0.67);
         border-radius: 20px;
@@ -87,49 +91,58 @@ cursor: pointer;
         }
     }
 }
-
-
-
-    .btn-restaurant {
-        background: linear-gradient($color-secondary,$color-primary);
-        border-radius: 50px;
-        color: white;
-        width: 200px;
-        margin-left: -108px;
+@media all and (min-width: 1920px) {
+.btn-restaurant {
+    background: linear-gradient($color-secondary,$color-primary);
+    border-radius: 50px;
+    color: white;
+    width: 200px;
+    margin-left: -136px;
     }
-    
-    .btn-choisir {
-        box-shadow: -2px 2px 9px -2px rgba(23, 21, 21, 0.67);
-        border-radius: 20px;
-        height: 150px;
-        width: 355px;
-        text-align: center;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .btn-new { 
-        background: $color-tertiary;
+}
+@media all and (min-width: 1024px) {
+.btn-restaurant {
+    background: linear-gradient($color-secondary,$color-primary);
+    border-radius: 50px;
+    color: white;
+    width: 200px;
+    margin-left: -110px;
+}
+
+.btn-choisir {
+    box-shadow: -2px 2px 9px -2px rgba(23, 21, 21, 0.67);
+    border-radius: 20px;
+    height: 150px;
+    width: 355px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.btn-new { 
+    padding-top: 4px;
+    background: $color-tertiary;
+    position: absolute;
+    height: 16px;
+    margin-top: 12px;
+    left: 319px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    width: 73.433px;
+    color: green;
+    border-radius: 2px;
+    & p { 
+        margin-bottom: 24px;
         position: absolute;
-        height: 16px;
-        margin-top: 12px;
-        right: 18px;
-        padding-left: 10px;
-        padding-bottom: 8px;
-        width: 73.433px;
-        color: green;
-        border-radius: 2px;
-        & p { 
-            margin-bottom: 24px;
-            position: absolute;
-            top: -14px;
-        }
+        top: -14px;
     }
+}
+}
 
 
 
 @media all and (min-width: 1980px) {
-
+    
     .btn-new { 
         left: 343px;
         background: $color-tertiary;
@@ -153,7 +166,7 @@ cursor: pointer;
         background: linear-gradient($color-secondary,$color-primary);
         border-radius: 50px;
         color: white;
-        margin-left: -675px;
+        margin-left: -652px;
         margin-top: 10px;
     }
     
@@ -168,7 +181,7 @@ cursor: pointer;
         align-items: center;
     }
     .btn-new { 
-        left: 343px;
+        left: 319px;
         background: $color-tertiary;
         position: absolute;
         height: 16px;

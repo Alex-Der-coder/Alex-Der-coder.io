@@ -297,7 +297,6 @@
 }
 
 .fa-1 , .fa-2 , .fa-3 {
-    margin-left: -6%;
     color: white;
 }
 
@@ -328,6 +327,7 @@ div.btn-choisir:nth-child(3) {
     justify-content: space-evenly;
     margin-left: 10px;
     flex-wrap: wrap;
+    height: 675px;
     &   a {
         text-decoration: none;
         color: black;

@@ -43,11 +43,11 @@
     }
     
     .size > img {
-        width: 103%;
+        width: 100%;
         margin-left: -10px;
     }
     .carte {
-        width: 103%;
+        width: 75%;
         margin-top: -199px;
         height: 800px;
         background-color: white;
@@ -56,6 +56,7 @@
         border-top-left-radius: 50px;
         border-top-right-radius: 50px;
         &   h2 {
+            margin-left: -1005px;
             padding-top: 20px;
             padding-left: 26px;
             font-family: Shrikhand;
@@ -68,11 +69,12 @@
     
     
     .heart  {
+        margin-right: 292px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
         &    .fa-heart {
-            margin-right: 35px;
+            margin-right: -1157px;
             margin-top: 40px;
         }
     }
@@ -91,6 +93,9 @@
     .fa-circle-check {
         margin-left: 24px;
         padding-top: 34px;
+    }
+    .icones {
+        margin-left: 518px;
     }
     
     .card_menu:hover .scale-in-hor-right {
@@ -251,7 +256,7 @@
         padding-top: 30px;
     }
     #more {
-        height: 1300px;
+        height: 1000px;
     }
     
     #hight {
@@ -259,13 +264,14 @@
     }
     
     .where {
+        margin-left: -625px;
+        width: 1951px;
         background-color:$color-light_grey;
         padding-top: 30px;
         padding-bottom: 0px;
         height: 70px;
         display: flex;
         justify-content: center;
-        margin-left: -368px;
     }
     .food {
         padding-bottom: 50px;
@@ -283,9 +289,29 @@
         align-items: center;
     }
     
-    .fa-1 , .fa-2 , .fa-3 {
-        margin-left: -6%;
+  
+.fa-1{
+    margin-left: -17px;
     }
+    
+    .fa-2 {
+        margin-left: -17px;
+       }
+    
+    .fa-3 {
+    margin-left: -19px;
+    }
+       
+       
+    div.btn-choisir:nth-child(1) > i:nth-child(1) {
+        margin-left: -3%;
+       }
+    div.btn-choisir:nth-child(2) > i:nth-child(1) {
+        margin-left: -12px;
+       }
+    div.btn-choisir:nth-child(3) > i:nth-child(1) {
+        margin-left: -12px;
+       }
     .icones > .fa-solid {
         border-color: rgba(220,220,220,.7411764706);
         font-size: 2rem;
@@ -305,7 +331,7 @@
     }
     
     .restaurant {
-        margin-left: -686px;
+        margin-left: -660px;
         margin-top: -6%;
         &   h1 ,  p  {
             text-align: center;
@@ -318,11 +344,10 @@
     }
     
     .colonne {
+        margin-left: -111px;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-left: 10px;
-        height: 1250px;
+        flex-direction: row;
+        justify-content: space-evenly;
         &   a {
             text-decoration: none;
             color: black;

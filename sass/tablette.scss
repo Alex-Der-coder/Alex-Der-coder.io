@@ -52,13 +52,13 @@
             margin-top: 40px;
         }
     }
-    
     .colonne_menu {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;        
-        height: 250px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        height: 280px;
+      }
         .card_menu {
             width: 350px;
             height: 75px;
@@ -69,7 +69,6 @@
             -webkit-animation: slide-down 0.5s ease-in-out both;
             animation: slide-down 0.5s ease-in-out both;
         }
-    }
     .card_menu_alternate_1 {
         width: 350px;
         height: 75px;
@@ -167,7 +166,7 @@
             width: 44%;
             padding-top: 10px;
             padding-bottom: 10px;
-            margin-left: 73px;
+            margin-left: 150px;
             
         } 
     }
@@ -247,6 +246,11 @@
             margin-top: 55px;
         }
     }
+
+    colonne .card p {
+        margin-top: -7px;
+        margin-left: 10px;
+      }
     
     .colonne {
         display: flex;
@@ -254,7 +258,10 @@
         justify-content: space-between;
         margin-left: 10px;
         height: 1250px;
-        
+        p {
+            margin-top: -7px;
+            margin-left: 10px;
+        }
         &    .card {
             width: 420px;
             height: 300px;
@@ -262,8 +269,8 @@
             border-radius: 20px;
         }
         &     .__bold {
+            margin-top: 7px;
             font-weight:bold;
-            margin-top: 5px;
             margin-left: 10px;
         }
         a {
