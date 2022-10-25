@@ -1,9 +1,15 @@
 .fa-store {
     color: $color-primary;
    }
-   
 
-@media all and (min-width: 375px) {
+.btn-restaurant:hover {
+background: linear-gradient(lighten($color-secondary,5%),(lighten($color-primary,5%)));
+box-shadow: 0px 6px 16px 3px #242424;
+cursor: pointer;
+}
+
+
+@media all and (max-width: 375px) {
     
     .btn-restaurant {
         background: linear-gradient($color-secondary,$color-primary);
@@ -24,12 +30,11 @@
     }
 
     .btn-new { 
-        left: 245px;
+        right: 18px;
         background: $color-tertiary;
         position: absolute;
         height: 16px;
         margin-top: 12px;
-        right: 43.567px;
         padding-left: 10px;
         padding-bottom: 8px;
         width: 73.433px;
@@ -43,7 +48,7 @@
     }
 }
 
-@media all and (min-width: 768px) {
+@media all and (max-width: 768px) {
     
     .btn-restaurant {
         background: linear-gradient($color-secondary,$color-primary);
@@ -83,27 +88,8 @@
     }
 }
 
-@media all and (min-width: 1280px) {
 
-    .btn-new { 
-        left: 343px;
-        background: $color-tertiary;
-        position: absolute;
-        height: 16px;
-        margin-top: 12px;
-        right: 43.567px;
-        padding-left: 10px;
-        padding-bottom: 8px;
-        width: 73.433px;
-        color: green;
-        border-radius: 2px;
-        & p { 
-            margin-bottom: 24px;
-            position: absolute;
-            top: -14px;
-        }
-    }
-    
+
     .btn-restaurant {
         background: linear-gradient($color-secondary,$color-primary);
         border-radius: 50px;
@@ -123,12 +109,11 @@
         align-items: center;
     }
     .btn-new { 
-        left: 343px;
         background: $color-tertiary;
         position: absolute;
         height: 16px;
         margin-top: 12px;
-        right: 43.567px;
+        right: 18px;
         padding-left: 10px;
         padding-bottom: 8px;
         width: 73.433px;
@@ -140,7 +125,7 @@
             top: -14px;
         }
     }
-}
+
 
 
 @media all and (min-width: 1980px) {
