@@ -32,6 +32,7 @@
 
 #ajust-content  {
     margin-left: 20px;
+    font-family: "Roboto",sans-serif;
 }
 
 #ajust {
@@ -251,7 +252,8 @@
 }
 
 .where {
-    margin-left: -42px;
+    margin-left: -85px;
+    width: 1425px;
     background-color:$color-light_grey;
     padding-top: 30px;
     padding-bottom: 0px;
@@ -260,10 +262,11 @@
     justify-content: center;
 }
 .food {
+    margin-left: -5px;
     padding-bottom: 50px;
     margin-top: 60px;
-    margin-left: -10px;
     height: 100%;
+    width: 101%;
     background-color: $color-light_grey;
 }
 
@@ -434,6 +437,7 @@ header > span {
 }
 
 #haut {
+    width: 101%;
     margin-left: -6px;
     height: 255px;
     text-align: center;
@@ -453,10 +457,10 @@ header > span {
 } 
 
 footer {
+    margin-left: -5px;
     padding-bottom: 13px;
     margin-top: -20px;
-    width: 105%;
-    margin-left: -8px;
+    width: 101%;
     background-color:#000000cf;
     & nav   {
         margin-left: 27px;
