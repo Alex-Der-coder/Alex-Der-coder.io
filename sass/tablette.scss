@@ -1,4 +1,4 @@
-
+@media all and (min-width: 768px) {
     @import "./utils/mixins";
     @import "./utils/variables";
     @import "./utils/functions";
@@ -58,17 +58,17 @@
         justify-content: space-evenly;
         flex-wrap: wrap;
         height: 280px;
-      }
-        .card_menu {
-            width: 350px;
-            height: 75px;
-            box-shadow: -9px 12px 99px 5px #46444438;
-            border-radius: 20px;
-            margin-left: 15px;
-            animation-delay: 1s;
-            -webkit-animation: slide-down 0.5s ease-in-out both;
-            animation: slide-down 0.5s ease-in-out both;
-        }
+    }
+    .card_menu {
+        width: 350px;
+        height: 75px;
+        box-shadow: -9px 12px 99px 5px #46444438;
+        border-radius: 20px;
+        margin-left: 15px;
+        animation-delay: 1s;
+        -webkit-animation: slide-down 0.5s ease-in-out both;
+        animation: slide-down 0.5s ease-in-out both;
+    }
     .card_menu_alternate_1 {
         width: 350px;
         height: 75px;
@@ -96,7 +96,11 @@
     }
     .fa-circle-check {
         margin-left: 20px;
-        padding-top: 33px;
+        margin-top: 35px;
+        -webkit-animation: rotate-center .6s ease-in-out both;
+        animation-delay: 1s;
+        animation: rotate-center .6s ease-in-out both;
+        animation-delay: 1s;
     }
     .scale-in-hor-right {
         display: none;
@@ -246,11 +250,11 @@
             margin-top: 55px;
         }
     }
-
+    
     colonne .card p {
         margin-top: -7px;
         margin-left: 10px;
-      }
+    }
     
     .colonne {
         display: flex;
@@ -295,18 +299,18 @@
             border-top-left-radius: 20px;
         }
     }
-
+    
     .fa-1 {
         margin-left: -5%;
-        }
-        Élément
-        .fa-2 {
+    }
+    Élément
+    .fa-2 {
         margin-left: -5%;
-        }
-        Élément
-        .fa-3 {
+    }
+    Élément
+    .fa-3 {
         margin-left: -6%;
-        }
+    }
     .align-menu{
         display: flex;
         flex-direction: row;
@@ -392,3 +396,4 @@
             text-decoration: none;
         }       
     }  
+}

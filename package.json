@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts":  { 
     "sass_mobile": "sass --watch ./sass/smartphone.scss:./CSS/smartphone.css --style compressed",
+    "sass_mobile_large": "sass --watch ./sass/smartphone_large.scss:./CSS/smartphone_large.css --style compressed",
     "sass_tablette": "sass --watch ./sass/tablette.scss:./CSS/tablette.css --style compressed",
     "sass_desktop": "sass --watch ./sass/desktop.scss:./CSS/desktop.css --style compressed",
     "sass_HD": "sass --watch ./sass/HD.scss:./CSS/HD.css --style compressed"

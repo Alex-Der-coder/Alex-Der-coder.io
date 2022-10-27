@@ -43,6 +43,7 @@
 .size > img {
     width: 103%;
     margin-left: -10px;
+    height: 918.733px;;
 }
 .carte {
     width: 103%;
@@ -82,8 +83,12 @@
     margin-right: -29px;
 }
 .fa-circle-check {
-    margin-left: 24px;
-    padding-top: 34px;
+    padding-top: 0px;
+    margin-top: 35px;
+    -webkit-animation: rotate-center .6s ease-in-out both;
+    animation-delay: 1s;
+    animation: rotate-center .6s ease-in-out both;
+    animation-delay: 1s;
 }
 
 .card_menu:hover .scale-in-hor-right {
@@ -212,14 +217,18 @@
         cursor: pointer;
     }
 }
+#fixal  {
+margin-left: 63px;
+}
 
 .logo {
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 68px;
+    margin-left: -75px;
     width: 1040px;
+    
     &   .fa-xl {
         font-size: 3.00rem;
         line-height: .04167em;
