@@ -241,7 +241,10 @@
             width: 33%;
             padding-top: 10px;
             padding-bottom: 10px;    
-        } 
+        }
+        &   .nospace {
+            margin-left: -290px;
+            }
     }
     .choice-meal {
         border-bottom: 3px solid $color-tertiary;
@@ -263,15 +266,16 @@
     }
     
     .where {
-        margin-left: -625px;
-        width: 1951px;
+        margin-left: -1218px;    
         background-color:$color-light_grey;
         padding-top: 30px;
         padding-bottom: 0px;
         height: 70px;
         display: flex;
         justify-content: center;
+        width: inherit;
     }
+
     .food {
         padding-bottom: 50px;
         margin-top: 60px;
