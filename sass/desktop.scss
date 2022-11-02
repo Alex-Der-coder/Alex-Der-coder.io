@@ -15,7 +15,9 @@
 @import "./pages/project";
 
 
-
+body {
+overflow-x: hidden;
+}
 #text-ajust {
     margin-top: -28px;
 }
@@ -43,7 +45,8 @@
 .size > img {
     width: 103%;
     margin-left: -10px;
-    height: 918.733px;;
+    height: 918.733px;
+    object-fit: cover;
 }
 .carte {
     width: 103%;
