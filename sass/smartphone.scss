@@ -28,7 +28,7 @@
             width: 54px;
             height: 54px;
             overflow: hidden;
-            background-color: linear-gradient($color-primary,$color-secondary,$color-tertiary);
+            background: linear-gradient($color-primary,$color-secondary,$color-tertiary);
             border-radius: 100%;
             animation: spin 2s linear;
             opacity: 0;
