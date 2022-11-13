@@ -15,8 +15,8 @@
     @import "./pages/project";
     
     #Dahmer {
-    margin-left: 0px; 
-}
+        margin-left: 88px; 
+    }
     .spinner {
         position: absolute;
         top: 26%;
@@ -194,7 +194,6 @@
     
     .fa-heart {
         font-size: 22px;
-        margin-top: 10px;
         margin-right: 21px;
         transition-duration: 2s;
         transition-property:transform;
@@ -202,26 +201,28 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: rgba(0, 0, 0, 0.56);
         height: 21.2px;
+        margin-top: 5px;
         &:hover {
-            animation: fa-heart 3s ease-in-out ;
+            animation: fa-heart 2s infinite ease-in-out ;
             font-weight: bolder;
+            background-color: white;
             cursor: pointer;
         }
     }
-
+    
     .fa-1, .fa-2 ,.fa-3 {
         color: white;
-       }
-       
+    }
+    
     .fa-arrow-left {
         -webkit-text-fill-color: rgb(0, 0, 0); 
     }
     .logo {
-            align-items: center;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            margin-left: 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: -52px;
         &    img {
             margin-left: -102px;
             width: 44%;
@@ -249,6 +250,8 @@
     }
     
     .where {
+        margin-left: -10px;
+        width: 379px;
         background-color:$color-light_grey;
         height: auto;
         display: flex;
@@ -272,8 +275,14 @@
         align-items: center;
     }
     
-    .fa-1 , .fa-2 , .fa-3 {
-        margin-left: -6%;
+    .fa-1 {
+        margin-left: -15px;
+    }
+    .fa-2 {
+        margin-left: -16px;
+    }
+    .fa-3 {
+        margin-left: -18px;
     }
     .icones > .fa-solid {
         border-right-width: 10px;
@@ -295,11 +304,6 @@
             margin-top: 55px;
         }
     }
-
-    div.btn-choisir:nth-child(3) {
-        background-color: #9356dc59;
-       }
-       
     
     .colonne {
         display: flex;
@@ -315,7 +319,7 @@
             p {
                 margin-top: -15px;
                 margin-left: 10px;
-        }
+            }
         }
         &     .__bold {
             padding-top: 10px;
@@ -332,10 +336,6 @@
         .colonne > .card > p:nth-child(2) {
             margin-top: -5px;
             margin-bottom: -14px;
-            margin-left: 10px;
-        }
-        div.card  > p:nth-child(3) {
-            margin-top: 0px;
             margin-left: 10px;
         }
         img {
@@ -393,6 +393,8 @@
     }
     
     #haut {
+        margin-left: -6px;
+        width: 375px;
         height: 255px;
         text-align: center;
         background-color:  #F2F2F2;
@@ -430,6 +432,6 @@
             text-decoration: none;
         }
     } 
-
+    
 }
 

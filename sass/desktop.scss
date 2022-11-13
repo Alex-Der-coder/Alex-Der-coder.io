@@ -14,9 +14,12 @@
 @import "./pages/about";
 @import "./pages/project";
 
-
+#Dahmer {
+margin-left: 255px;
+}
 body {
 overflow-x: hidden;
+margin-bottom: 0px;
 }
 #text-ajust {
     margin-top: -28px;
@@ -69,7 +72,7 @@ overflow-x: hidden;
     flex-direction: row;
     justify-content: space-between;
     &    .fa-heart {
-        margin-right: 35px;
+        margin-right: 183px;
         margin-top: 40px;
     }
 }
@@ -214,12 +217,16 @@ overflow-x: hidden;
     -webkit-text-fill-color: rgba(0, 0, 0, 0.56);
     height: 21.2px;
     &:hover {
-        animation: fa-heart 3s ease-in-out ;
+        animation: fa-heart 2s infinite ease-in-out ;
         font-weight: bolder;
         background-color: white;
         cursor: pointer;
     }
 }
+.fix_p {
+margin-top: -7px;
+}
+   
 #fixal  {
 margin-left: 63px;
 }
@@ -264,7 +271,7 @@ margin-left: 63px;
 }
 
 .where {
-    margin-left: -85px;
+    margin-left: -8px;
     width: 1425px;
     background-color:$color-light_grey;
     padding-top: 30px;
@@ -312,21 +319,18 @@ margin-left: 63px;
     color: white;
 }
 
-div.btn-choisir:nth-child(3) {
-    background-color: #9356dc59;
-}
-
-
-
 .restaurant {
     margin-left: -120px;
     margin-top: -6%;
     &   h1 ,  p  {
         text-align: center;
     }
+    p  {
+        margin-left: 108px;
+    }
     &   h1 {
+        margin-left: 119px;
         margin-top: 100px;
-        margin-left: 25px;
         width: 375px;
         
     }
@@ -357,8 +361,8 @@ div.btn-choisir:nth-child(3) {
     }
     &     .__bold {
         font-weight:bold;
-        margin-top: 5px;
-        margin-left: 10px
+        margin-left: 10px;
+        margin-top: 4px;
     }
 }
 
@@ -367,10 +371,7 @@ div.btn-choisir:nth-child(3) {
         margin-bottom: -14px;
         margin-left: 10px;
     }
-    div.card  > p:nth-child(3) {
-        margin-top: 0px;
-        margin-left: 10px;
-    }
+    
     img {
         width: 420px;
         height: 230px;
@@ -469,7 +470,7 @@ header > span {
 } 
 
 footer {
-    margin-left: -5px;
+    margin-left: -8px;
     padding-bottom: 13px;
     margin-top: -20px;
     width: 101%;
