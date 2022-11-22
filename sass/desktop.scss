@@ -14,9 +14,7 @@
 @import "./pages/about";
 @import "./pages/project";
 
-#Dahmer {
-margin-left: 255px;
-}
+
 body {
 overflow-x: hidden;
 margin-bottom: 0px;
@@ -227,17 +225,14 @@ margin-bottom: 0px;
 margin-top: -7px;
 }
    
-#fixal  {
-margin-left: 63px;
-}
 
 .logo {
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: -75px;
-    width: 1040px;
+    margin-left: -5%;
+width: 103%;
     
     &   .fa-xl {
         font-size: 3.00rem;
@@ -272,7 +267,7 @@ margin-left: 63px;
 
 .where {
     margin-left: -8px;
-    width: 1425px;
+    width: 103%;
     background-color:$color-light_grey;
     padding-top: 30px;
     padding-bottom: 0px;
