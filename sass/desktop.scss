@@ -95,7 +95,7 @@ body {
     animation-delay: 1s;
 }
 
-.card_menu:hover .scale-in-hor-right {
+.card_menu:hover .scale-in-hor-right, .card_menu:hover strong {
     animation: scale-in-hor-right 1s ease-in-out 450ms backwards;
     -webkit-animation: scale-in-hor-right 1s ease-in-out 450ms backwards;
     display: initial;
@@ -264,14 +264,14 @@ margin-left: 39%;
     font-size: 15px;
 }
 #top {
-    padding-top: 30px;
+    margin-top: 9%;
 }
 #more {
     height: 1000px;
 }
 
 #hight {
-    height: 345px;
+    height: 12%;
 }
 
 .where {
