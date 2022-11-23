@@ -16,8 +16,8 @@
 
 
 body {
-overflow-x: hidden;
-margin-bottom: 0px;
+    overflow-x: hidden;
+    margin-bottom: 0px;
 }
 #text-ajust {
     margin-top: -28px;
@@ -84,7 +84,7 @@ margin-bottom: 0px;
     border-bottom-right-radius: 13px;
     border-top-right-radius: 13px;
     margin-top: -26px;
-    margin-right: -29px;
+    margin-right: -23%;
 }
 .fa-circle-check {
     padding-top: 0px;
@@ -164,35 +164,39 @@ margin-bottom: 0px;
     flex-wrap: wrap;        
     height: 120px;
     width: 1266.92px;
+
     .card_menu {
-        width: 350px;
-        height: 75px;
+        width: 31%;
+        height: 63%;
         box-shadow: -9px 12px 99px 5px #46444438;
         border-radius: 20px;
         margin-left: 15px;
         animation-delay: 1s;
         -webkit-animation: slide-down 0.5s ease-in-out both;
         animation: slide-down 0.5s ease-in-out both;
+        margin-top: 6%;
     }
     .card_menu_alternate_1 {
-        width: 350px;
-        height: 75px;
+        width: 31%;
+        height: 63%;
         box-shadow: -9px 12px 99px 5px #46444438;
         border-radius: 20px;
         margin-left: 15px;
         animation-delay: -3s;
         -webkit-animation: slide-down 1s ease-in-out both;
         animation: slide-down 1s ease-in-out both;
+        margin-top: 6%;
     }
     .card_menu_alternate_2 {
-        width: 350px;
-        height: 75px;
+        width: 31%;
+        height: 63%;
         box-shadow: -9px 12px 99px 5px #46444438;
         border-radius: 20px;
         margin-left: 15px;
         animation-delay: -4s;
         -webkit-animation: slide-down 2s ease-in-out both;
         animation: slide-down 2s ease-in-out both;
+        margin-top: 6%;
     }
 }
 
@@ -222,17 +226,19 @@ margin-bottom: 0px;
     }
 }
 .fix_p {
-margin-top: -7px;
+    margin-top: -7px;
 }
-   
+#Dahmer {
+margin-left: 39%;
+}
 
 .logo {
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: -5%;
-width: 103%;
+    margin-left: -17%;
+    width: 95%;
     
     &   .fa-xl {
         font-size: 3.00rem;
@@ -240,12 +246,15 @@ width: 103%;
         vertical-align: -.125em;
     } 
     &    img {
-        width: 33%;
-        margin-left: 90px;
+        width: 22%;
         padding-top: 10px;
         padding-bottom: 10px;    
     } 
 }
+.nospace {
+    margin-left: -472px;
+}
+
 .choice-meal {
     border-bottom: 3px solid $color-tertiary;
     width: 41px;
@@ -307,7 +316,7 @@ width: 103%;
 .btn-choisir > .fa-circle {
     color: $color-primary;
     margin-left: -4%;
-
+    
 }
 
 .fa-1 , .fa-2 , .fa-3 {
@@ -331,12 +340,24 @@ width: 103%;
     }
 }
 
+#haut {
+    width: 100%;
+    margin-left: 0;
+    height: 255px;
+    text-align: center;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
 .colonne {
-    width: 1200px;
+    width: 73%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-left: -110px;
+    margin-left: -45px;
     flex-wrap: wrap;
     height: 675px;
     &   a {
@@ -353,14 +374,14 @@ width: 103%;
         p {
             margin-top: -7px;
             margin-left: 10px;
+        }
+        &     .__bold {
+            font-weight:bold;
+            margin-left: 10px;
+            margin-top: 4px;
+        }
     }
-    &     .__bold {
-        font-weight:bold;
-        margin-left: 10px;
-        margin-top: 4px;
-    }
-}
-
+    
     .colonne > .card > p:nth-child(2) {
         margin-top: -5px;
         margin-bottom: -14px;
@@ -368,7 +389,7 @@ width: 103%;
     }
     
     img {
-        width: 420px;
+        width: 100%;
         height: 230px;
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
@@ -376,30 +397,30 @@ width: 103%;
 }
 
 .fa-1{
-margin-left: -17px;
+    margin-left: -17px;
 }
 
 .fa-2 {
     margin-left: -17px;
-   }
+}
 
 .fa-3 {
-margin-left: -19px;
+    margin-left: -19px;
 }
-   
-   
+
+
 div.btn-choisir:nth-child(1) > i:nth-child(1) {
     margin-left: -3%;
-   }
+}
 div.btn-choisir:nth-child(2) > i:nth-child(1) {
     margin-left: -12px;
-   }
+}
 div.btn-choisir:nth-child(3) > i:nth-child(1) {
     margin-left: -12px;
-   }
-   
-   
-   
+}
+
+
+
 .align-menu{
     display: flex;
     flex-direction: row;
