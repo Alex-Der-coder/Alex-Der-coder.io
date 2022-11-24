@@ -95,7 +95,7 @@ body {
     animation-delay: 1s;
 }
 
-.card_menu:hover .scale-in-hor-right, .card_menu:hover strong {
+.card_menu:hover .scale-in-hor-right {
     animation: scale-in-hor-right 1s ease-in-out 450ms backwards;
     -webkit-animation: scale-in-hor-right 1s ease-in-out 450ms backwards;
     display: initial;

@@ -1,4 +1,4 @@
-.btn-choisir:hover .fa-store,.btn-choisir:hover .fa-bars,.btn-choisir:hover .fa-mobile-screen-button  {
+.btn-choisir:hover .fa-store,.btn-choisir:hover .fa-bars,.btn-choisir:hover .fa-mobile-screen-button ,.btn-choisir:hover .fa-ellipsis-vertical   {
     color: $color-primary;
 }
 
@@ -8,10 +8,9 @@
     cursor: pointer;
 }
 
-.btn-choisir:hover {
+.btn-choisir:hover  {
     background-color: #9356dc59;
 }
-
 @media all and (min-width: 320px) {
     
     .btn-restaurant {
