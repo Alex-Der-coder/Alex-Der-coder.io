@@ -19,7 +19,7 @@
     }
     body {
         margin-bottom: 0px;
-        }
+    }
     .spinner {
         position: absolute;
         top: 26%;
@@ -104,10 +104,10 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 250px;
+        height:18%;
         .card_menu {
-            width: 350px;
-            height: 75px;
+            width: 92%;
+            height: 31%;
             box-shadow: -9px 12px 99px 5px #46444438;
             border-radius: 20px;
             margin-left: 15px;
@@ -116,9 +116,9 @@
             animation: slide-down 0.5s ease-in-out both;
         }
     }
-    .card_menu_alternate_1 {
-        width: 350px;
-        height: 75px;
+    .card_menu_alternate_1  {
+        width: 92%;
+        height: 31%;
         box-shadow: -9px 12px 99px 5px rgba(70,68,68,.2196078431);
         border-radius: 20px;
         margin-left: 15px;
@@ -128,8 +128,9 @@
     }
     
     .card_menu_alternate_2 {
-        width: 350px;
-        height: 75px;
+
+        width: 92%;
+        height: 31%;
         box-shadow: -9px 12px 99px 5px rgba(70,68,68,.2196078431);
         border-radius: 20px;
         margin-left: 15px;
@@ -138,15 +139,17 @@
         animation: slide-down 2s ease-in-out both;
     }
     .scale-in-hor-right {
+        width: 17%;
+        height: 479%;
         display: none;
         background-color: $color-tertiary;
-        height: 77px;
-        width: 71px;
         border-bottom-right-radius: 13px;
         border-top-right-radius: 13px;
         margin-top: -26px;
-        margin-right: -29px;
+        margin-right: -21%;
+        
     }
+    
     
     .scale-in-hor-right_alternate {
         display: none;
@@ -160,11 +163,11 @@
     }
     .fa-circle-check {
         margin-top: 34px;
-        margin-left: 22px;
         -webkit-animation: rotate-center .6s ease-in-out both;
         animation-delay: 1s;
         animation: rotate-center .6s ease-in-out both;
         animation-delay: 1s;
+        margin-left: 31%;
     }
     .colonne_menu:hover  > .card_menu , .colonne_menu:hover  > .card_menu_alternate_1 , .colonne_menu:hover  > .card_menu_alternate_2  {
         display: initial;
@@ -237,6 +240,7 @@
         border-bottom: 3px solid $color-tertiary;
         width: 41px;
         margin-left: 25px;
+        margin-bottom: 24%;
     }
     #size {
         font-size: 15px;
@@ -361,7 +365,7 @@
         justify-content: space-between;
         height: 14.2px;
         margin-top: -20px;
-        width: 312px;
+        width: 80%;
         padding-left: 10px;
     }
     
