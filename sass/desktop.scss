@@ -25,12 +25,12 @@ body {
 .scale-in-hor-right_alternate {
     display: none;
     background-color: #99e2d0;
-    width: 71px;
     border-bottom-right-radius: 13px;
     border-top-right-radius: 13px;
-    margin-right: -29px;
     margin-top: -36px;
     height: 75px;
+    margin-right: -71px;
+    width: 60px;
 }
 
 #ajust-content  {
@@ -164,7 +164,7 @@ body {
     flex-wrap: wrap;        
     height: 120px;
     width: 1266.92px;
-
+    
     .card_menu {
         width: 31%;
         height: 63%;
@@ -229,7 +229,7 @@ body {
     margin-top: -7px;
 }
 #Dahmer {
-margin-left: 39%;
+    margin-left: 39%;
 }
 
 .logo {
@@ -259,6 +259,7 @@ margin-left: 39%;
     border-bottom: 3px solid $color-tertiary;
     width: 41px;
     margin-left: 25px;
+    margin-bottom: 3%;
 }
 #size {
     font-size: 15px;
@@ -353,11 +354,11 @@ margin-left: 39%;
 }
 
 .colonne {
-    width: 73%;
+    margin-left: -2%;
+    width: 83%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-left: 10%;
     flex-wrap: wrap;
     height: 100%;
     &   a {
@@ -393,7 +394,7 @@ margin-left: 39%;
         height: 230px;
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
-        margin-top: -27px;
+        margin-top: -28px;
     }
 }
 
