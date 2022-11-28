@@ -79,7 +79,7 @@ body {
     margin-left: -10px;
 }
 .carte {
-    height: 1170px;
+    height: 100%;
     background-color: white;
     margin-top: -75px;
     position: relative;
@@ -121,7 +121,7 @@ body {
 }
 .card_menu_alternate_1 {
     width: 89%;
-height: 27%;
+    height: 27%;
     box-shadow: -9px 12px 99px 5px rgba(70,68,68,.2196078431);
     border-radius: 20px;
     margin-left: 15px;
@@ -141,10 +141,10 @@ height: 27%;
     animation: slide-down 2s ease-in-out both;
 }
 .scale-in-hor-right {
+    height: 70px;
+    width: 62px;
     display: none;
     background-color: $color-tertiary;
-    height: 77px;
-    width: 71px;
     border-bottom-right-radius: 13px;
     border-top-right-radius: 13px;
     margin-top: -26px;
@@ -304,7 +304,18 @@ height: 27%;
         margin-top: 55px;
     }
 }
+.colonne > a:nth-child(2) > div:nth-child(1) {
+    height: 60%;
+}
 
+.colonne > a:nth-child(2) {
+    height: 100%;
+    padding-bottom: -12px;
+    margin-bottom: -35%;
+}
+#citron {
+    top: 94%;
+}
 .colonne {
     display: flex;
     flex-direction: column;
@@ -312,8 +323,8 @@ height: 27%;
     margin-left: 10px;
     height: 1250px;
     &    .card {
-        width: 320px;
-        height: 300px;
+        width: 88%;
+        height: 80%;
         background-color: white;
         border-radius: 20px;
         p {

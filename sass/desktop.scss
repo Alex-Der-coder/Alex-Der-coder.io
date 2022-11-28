@@ -80,11 +80,11 @@ body {
     display: none;
     background-color: $color-tertiary;
     height: 77px;
-    width: 71px;
     border-bottom-right-radius: 13px;
     border-top-right-radius: 13px;
     margin-top: -26px;
-    margin-right: -23%;
+    width: 62px;
+    margin-right: -36%;
 }
 .fa-circle-check {
     padding-top: 0px;
@@ -95,24 +95,13 @@ body {
     animation-delay: 1s;
 }
 
-.card_menu:hover .scale-in-hor-right {
+.card_menu:hover .scale-in-hor-right , .card_menu_alternate_1:hover .scale-in-hor-right , .card_menu_alternate_2:hover .scale-in-hor-right{
     animation: scale-in-hor-right 1s ease-in-out 450ms backwards;
     -webkit-animation: scale-in-hor-right 1s ease-in-out 450ms backwards;
     display: initial;
     color: white;
 }
-.card_menu_alternate_1:hover .scale-in-hor-right {
-    animation: scale-in-hor-right 1s ease-in-out 450ms backwards;
-    -webkit-animation: scale-in-hor-right 1s ease-in-out 450ms backwards;
-    display: initial;
-    color: white;
-}
-.card_menu_alternate_2:hover .scale-in-hor-right {
-    animation: scale-in-hor-right 1s ease-in-out 450ms backwards;
-    -webkit-animation: scale-in-hor-right 1s ease-in-out 450ms backwards;
-    display: initial;
-    color: white;
-}
+
 
 .spinner {
     position: absolute;
