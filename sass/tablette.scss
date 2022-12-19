@@ -18,7 +18,9 @@
     margin-bottom: 0px;
     overflow-x:hidden;
 }
-
+#Jeff {
+    margin-top: 142%;
+    }
     #ajust-content  {
         margin-left: 20px;
     }
@@ -221,7 +223,15 @@
         height: 100%;
         background-color: $color-light_grey;
     }
-    
+    div.colonne_menu:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) {
+        margin-right: -118%;
+        }
+        div.colonne_menu:nth-child(7) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) {
+            margin-right: -118%;
+            }
+            p.choice-meal:nth-child(6) {
+                margin-top: -100px;
+                }
     .space {
         display: flex;
         width: 250px;
@@ -253,12 +263,15 @@
         color: $color-primary;
         margin-left: -4%;
     }
+    div.colonne_menu:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) {
+        margin-right: -369px;
+        }
     .colonne > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
-        top: 116%;
+        top: 485%;
         }
 
     .colonne > a:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
-        top: 147%;
+        top: 384%;
         }
     .restaurant {
         margin-top: -6%;
