@@ -141,40 +141,52 @@
         animation: slide-down 2s ease-in-out both;
     }
     .scale-in-hor-right {
-        width: 17%;
-        height: 509%;
+        width: 18%;
+        height: 410%;
         display: none;
         background-color: $color-tertiary;
         border-bottom-right-radius: 13px;
         border-top-right-radius: 13px;
-        margin-top: -26px;
+        margin-top: -20px;
+        margin-right: -21%;
+        
+    }
+    .btn-restaurant {
+        margin-top: 174px;
+    }
+    #alternate {
+        width: 18%;
+        height: 510%;
+        background-color: $color-tertiary;
+        border-bottom-right-radius: 13px;
+        border-top-right-radius: 13px;
+        margin-top: -20px;
         margin-right: -21%;
         
     }
     
-    
-    .scale-in-hor-right_alternate {
-        display: none;
-        background-color: #99e2d0;
-        width: 71px;
-        border-bottom-right-radius: 13px;
-        border-top-right-radius: 13px;
-        margin-right: -29px;
-        margin-top: -36px;
-        height: 75px;
+    #hight > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > i:nth-child(1) {
+        margin-left: 15%;
     }
+    
+  
     .fa-circle-check {
-        margin-top: 34px;
+        margin-top: 30px;
         -webkit-animation: rotate-center .6s ease-in-out both;
         animation-delay: 1s;
         animation: rotate-center .6s ease-in-out both;
         animation-delay: 1s;
-        margin-left: 25%;
+        margin-left: 17%;
     }
     .colonne_menu:hover  > .card_menu , .colonne_menu:hover  > .card_menu_alternate_1 , .colonne_menu:hover  > .card_menu_alternate_2  {
         display: initial;
     }  
-    
+    div.colonne_menu:nth-child(5) > div:nth-child(3) > div:nth-child(2) > p:nth-child(1) {
+        width: 201.75px;
+    }
+    div.colonne_menu:nth-child(7) > div:nth-child(1) > div:nth-child(2) > p:nth-child(1) {
+        width: 211.283px;
+    }
     .card_menu:hover .scale-in-hor-right {
         animation: scale-in-hor-right 1s ease-in-out 450ms backwards;
         -webkit-animation: scale-in-hor-right 1s ease-in-out 450ms backwards;
@@ -323,7 +335,7 @@
         margin-left: 10px;
         height: 1250px;
         &    .card {
-            width: 88%;
+            width: 94%;
             height: 112%;
             background-color: white;
             border-radius: 20px;
@@ -382,10 +394,29 @@
         height: 14.2px;
         padding-left: 0px;
     }
+    .colonne > a:nth-child(1) > div:nth-child(1) > img:nth-child(2) {
+        height: 222.06px;
+    }
+    .colonne > a:nth-child(2) > div:nth-child(1) > img:nth-child(2) {
+        height: 222.06px;
+    }
     
+    .colonne > a:nth-child(1) > div:nth-child(1) {
+        height: 94%;
+    }
+    
+    .colonne > a:nth-child(2) > div:nth-child(1) {
+        height: 92%;
+    }
+    .colonne > a:nth-child(3) > div:nth-child(1) {
+        height: 94%;
+    }
+    .colonne > a:nth-child(4) > div:nth-child(1) {
+        height: 94%;
+    }
     .__bold_menu {
         font-weight:bold;
-        margin-top: 10px;
+        margin-top: 4px;
         margin-left: 10px;
     }
     

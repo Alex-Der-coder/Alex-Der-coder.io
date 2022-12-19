@@ -14,10 +14,15 @@
 @import "./pages/about";
 @import "./pages/project";
 
-@media all and (max-width: 390px) {
+@media all and (max-width: 767px) {
     #Dahmer {
-        margin-left: 88px; 
+        margin-left: 18%; 
     }
+}
+@media (min-width: 390px) {
+    .btn-restaurant {
+        top: 40%;
+}
 }
 
 body {
