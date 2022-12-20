@@ -85,7 +85,8 @@ body {
     border-top-right-radius: 13px;
     margin-top: -26px;
     width: 62px;
-    margin-right: -36%;
+
+    margin-right: -4%;
 }
 .fa-circle-check {
     padding-top: 0px;
@@ -435,10 +436,13 @@ div.btn-choisir:nth-child(3) > i:nth-child(1) {
     justify-content: space-between;
     height: 14.2px;
     margin-top: -20px;
-    width: 312px;
+    width: 94%;
     padding-left: 10px;
 }
 
+  div.colonne_menu:nth-child(3) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) {
+    margin-right: -3%;
+    }
 .align_index {
     display: flex;
     flex-direction: row;

@@ -78,10 +78,11 @@
         flex-direction: row;
         align-items: center;
     }
+    
     .btn-new { 
-        left: 343px;
+        left: 320px;
         background: $color-tertiary;
-        position: absolute;
+        position:relative;
         height: 16px;
         margin-top: 12px;
         right: 43.567px;
