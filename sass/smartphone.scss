@@ -196,7 +196,7 @@
     div.colonne_menu:nth-child(7) > div:nth-child(1) > div:nth-child(2) > p:nth-child(1) {
         width: 211.283px;
     }
-    .card_menu:hover .scale-in-hor-right {
+    .card_menu:hover .scale-in-hor-right,.card_menu:hover .scale-in-hor-right_note {
         animation: scale-in-hor-right 1s ease-in-out 450ms backwards;
         -webkit-animation: scale-in-hor-right 1s ease-in-out 450ms backwards;
         display: initial;
@@ -214,6 +214,12 @@
         display: initial;
         color: white;
     }
+    #meringue,#rhum,#chocolat,#celeri,#patate, #boeuf {
+    height: 443%;
+}
+#ble , #orange , #pain {
+    height: 508%;
+}
     .card_menu:hover .scale-in-hor-right_alternate {
         animation: scale-in-hor-right 1s ease-in-out 450ms backwards;
         -webkit-animation: scale-in-hor-right 1s ease-in-out 450ms backwards;
@@ -488,12 +494,12 @@
     }
     div.colonne_menu:nth-child(5) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) {
         margin-right: -5%;
-        height: 446%;
+        height: 397%;
         margin-top: -19px;
     }
     div.colonne_menu:nth-child(5) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) {
         margin-right: -5%;
-        height: 445%;
+        height: 393%;
         margin-top: -19px;
     }
     div.card_menu:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
@@ -501,13 +507,16 @@
     }
     div.colonne_menu:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) {
         margin-right: -13px;
-        height: 446%;
+        height: 391%;
         margin-top: -11px;
-        }
-
-        div.card_menu:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
+    }
+    div.colonne_menu:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > i:nth-child(1) {
+        margin-top: 28px;
+        margin-left: 24%;
+    }
+    div.card_menu:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
         margin-right: -14px;
-        }
+    }
     .colonne > a:nth-child(2) > div:nth-child(1) > img:nth-child(2) {
         height: 222.06px;
     }
