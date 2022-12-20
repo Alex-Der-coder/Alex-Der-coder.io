@@ -1,4 +1,4 @@
-@media all and (min-width: 768px) , (max-width: 1024px) {
+@media all and (min-width: 768px) , (max-width: 1023px) {
     @import "./utils/mixins";
     @import "./utils/variables";
     @import "./utils/functions";
@@ -230,9 +230,10 @@
         margin-right: -18px;
         height: 95px;
     }
+
     div.colonne_menu:nth-child(7) {
-        margin-top: -90px;
-        }
+      margin-top: -90px;
+    }
 
         body > footer:nth-child(4) {
         margin-top: 154px;

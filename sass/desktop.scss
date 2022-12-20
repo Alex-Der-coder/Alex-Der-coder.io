@@ -14,8 +14,7 @@
 @import "./pages/about";
 @import "./pages/project";
 
-fa-heart:hover
-b
+
 body {
     overflow-x: hidden;
     margin-bottom: 0px;
@@ -331,7 +330,9 @@ body {
         
     }
 }
-
+div.colonne_menu:nth-child(7) {
+    margin-top: initial;
+  }
 #haut {
     width: 100%;
     margin-left: 0;
